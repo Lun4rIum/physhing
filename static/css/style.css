@@ -26,7 +26,7 @@ body
 {
 
     display: block;
-
+    border-radius: 5px;
     margin-left: auto;
     margin-right: auto;
     border: none;
@@ -35,7 +35,7 @@ body
 .pass
 {
     display: block;
-
+    border-radius: 5px;
     margin-left: auto;
     margin-right: auto;
     border: none;
@@ -54,10 +54,14 @@ body
     font-family: "Motoya";
     width: 80px;
     height: 30px;
-    background-color:  #0c1015 ;
-    color: #e67e22;
+
     align-items: center;
+    background-color:#e67e22;
+    border-radius: 5px;
+    color: white;
     -webkit-appearance: none;
+    
+
 
 
 
@@ -69,9 +73,11 @@ body
     text-align:center;
     margin-left: auto;
     margin-right: auto;
-    background-color:#e67e22;
+    border-radius: 5px;
+    background-color:  #0c1015 ;
+    color: #e67e22;
     transition: 0.2s;
-    color: white;
+
 
 }
 
