@@ -1,0 +1,96 @@
+@font-face{
+    font-family: "Motoya";
+    src: url(/static/css/font/1c8b876ce4910bf5cee6a5d7363544fc.woff);
+    font-style: normal;
+}
+body
+{
+    background-color: #17202a;
+    color:  #e67e22;
+    font-family: "Nud Motoya Maru";
+    text-transform: uppercase;
+    transition: 0.2s;
+    font-family: "Motoya";
+    transform: scale(1.4);
+    max-width: 100%;
+    overflow-x: hidden;
+    align-items: center;
+
+    
+    
+}
+
+
+
+.mail
+{
+
+    display: block;
+
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+}
+
+.pass
+{
+    display: block;
+
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+}
+
+.submit
+{
+
+
+
+    display: inline-block;
+    text-align:center;
+    margin:auto;
+    border: none;
+    transition: 0.2s;
+    font-family: "Motoya";
+    width: 80px;
+    height: 30px;
+    background-color:  #0c1015 ;
+    color: #e67e22;
+    align-items: center;
+    -webkit-appearance: none;
+
+
+
+}
+
+.submit:hover
+{
+    display: inline-block;
+    text-align:center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:#e67e22;
+    transition: 0.2s;
+    color: white;
+
+}
+
+.buttons
+{
+    display: absolute;
+    align-items: center;
+    text-align: center;
+    height: 100px;
+    float: center;
+    margin: auto;
+    width: 60%;
+    top: 500px;
+    padding: 50px;
+    justify-content: center;
+
+    top: 500px;
+    bottom:0;
+    margin: 0 auto -30px;
+
+    
+}
